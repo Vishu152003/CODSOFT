@@ -1,0 +1,18 @@
+*{
+    margin:0; padding:0;
+    box-sizing:content-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fec1c1;
+}
+    .heading {
+    background:#fff;
+    font-size:3.5rem;
+    color:black;
+    font-family: 'Sriracha', cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    }
+    

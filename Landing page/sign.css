@@ -1,0 +1,29 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+.back{
+    background-image: url(sign.jpg);
+    background: cover;
+    background-repeat: no repeat;
+}
+.back table{
+    padding: 10px;
+}
+.back table td{
+    padding: 8px 8px;
+    font-size: xx-large;
+}
+.back table td input{
+    align-items: center;
+    background-color:lightgoldenrodyellow;
+    width: 6cm;
+    height: 1cm;
+    align-items: center;
+}
+.cre{
+    align-content: center;
+    font-size: x-large;
+    
+}

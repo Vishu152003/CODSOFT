@@ -1,0 +1,100 @@
+*{
+    margin:0; padding:0;
+    box-sizing:content-box;
+    text-transform: capitalize;
+    transition: all 0.4 cubic(0,1.57,67,1.18); 
+    background-color: #fec1c1;
+}
+    .heading {
+    background:#fff;
+    font-size:3.5rem;
+    color:black;
+    font-family: 'Sriracha', cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    }
+    
+    
+    .box-container { 
+           display:flex;   
+           align-items: center;
+           justify-content: center;
+              
+        }
+        
+        .box{
+            flex:1 1 300px;
+            background:#fff;
+            border:1px solid rgba(0,0,0,.7);                      
+            border-color:aliceblue; 
+                      
+            background-color:#fec1c1;              
+            position: relative;
+            overflow: hidden;
+            margin:20px;
+        }          
+        .box  .image{
+        padding:10px;
+        text-align:left;
+        }
+        .box .image img{
+        height:300px;
+        width:300px;
+        object-fit: cover;
+        }
+        .box .info .title{
+            padding:10px;
+            color:fuchsia;
+            font-family: 'Kaushan Script', cursive;
+            font-size: 20px;
+        }      
+        .box .info .subInfo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 10px;
+            border-top: 1px solid rgba(0,0,0,.3);
+        }
+
+        .box .info .subInfo .price{
+            color:  #ff3300;
+            font-size: 20px;
+           }                
+        .box .info .sunInfo .stars i{
+            color:rgb(255, 208, 0);
+            font-size: 17px;
+        }
+        .box .overlay{
+            position:absolute;
+            top:0;left:0;
+            height:223px;
+            width:100%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            transition: none;
+            transform:scale(0);        
+            }
+        .box:hover  .overlay{
+            transform:scale(1);    
+        }   
+
+        .box .overlay a{
+            text-decoration: none;
+            color: white;
+            margin:10px;
+            padding:13px 15px;
+            font-size: 30px;        
+            transform: translateY(-150px);
+            transition-property:transform;
+            transition-delay: calc(.1s *var(--i));
+        }
+        .box .overlay a:hover{
+            color:red;
+        }
+        .box:hover .overlay a{
+            transform: translateY(0px)
+        }
+    
+           

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<style>
+    *{
+        background-color: pink;
+    }
+    .h{
+        font-size: xx-large;
+    }
+    .in{
+        font-size: xx-large;
+    }
+    .on{
+        color:green;
+        
+    }
+    .at{
+        border-radius: 2%;
+    }
+</style>
+<body>
+    <center>
+    <h2 class="h">Login</h2>
+    <form action="login.php" method="post">
+        <label class="in" for="username">Username:</label>
+        <input  class="at" type="text" id="username" name="username" required><br>
+        
+        <label class="in" for="password">Password:</label>
+        <input class="at" type="password" id="password" name="password" required><br>
+        
+        <button class="on" type="submit">Login</button>
+    </form>
+</center>
+</body>
+</html>
